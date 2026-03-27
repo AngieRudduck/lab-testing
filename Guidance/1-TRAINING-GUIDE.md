@@ -407,23 +407,33 @@ Do not create one PR per issue. Group related issues:
 
 Before moving to the workflow, confirm you can answer **yes** to all of these:
 
+**Setup and tools:**
+- [ ] I have VS Code, Git, and the required extensions installed
+- [ ] I have configured the Microsoft Docs MCP server and GitHub MCP server
+- [ ] I have cloned at least one repository and can open it in VS Code
+- [ ] I am comfortable navigating VS Code (Explorer, Source Control, Command Palette, status bar)
+
+**Core concepts:**
 - [ ] I can explain what a branch is and why we use them
 - [ ] I can explain what `main` is and why I should never edit it directly
-- [ ] I know what `origin` means
-- [ ] I understand the GitHub Flow (branch → commit → push → PR → merge)
+- [ ] I know what `origin` and `remote` mean
 - [ ] I can write basic Markdown (headings, bold, lists, code blocks, links)
+- [ ] I can identify the folder structure of a MicrosoftLearning repo (Instructions, Labs, Images, Allfiles)
+- [ ] I know where supporting assets live and when to modify them
+
+**GitHub workflow:**
+- [ ] I understand the GitHub Flow (branch → commit → push → PR → merge)
 - [ ] I know what a pull request is and how to create one
 - [ ] I understand why syncing `main` before creating a branch prevents merge conflicts
-- [ ] I can categorize an issue (urgent fix, needed fix, enhancement, not actionable, duplicate)
-- [ ] I understand why related issues should be grouped into one PR
-- [ ] I have VS Code, Git, and the required extensions installed
-- [ ] I am comfortable navigating VS Code (Explorer, Source Control, Command Palette, status bar)
-- [ ] I have cloned at least one repository and can open it in VS Code
-- [ ] I can identify the folder structure of a MicrosoftLearning repo (Instructions, Labs, Images, Allfiles)
-- [ ] I know where supporting assets live (`Allfiles/Labs/`) and when to modify them
+
+**Lab-specific knowledge:**
 - [ ] I understand the two lab delivery models (hosted VM and bring your own subscription)
 - [ ] I know what exercise modularity means and how to check for dependencies between exercises
-- [ ] I can complete the full workflow (sync → branch → edit → commit → test → PR) 
+
+**Issue triage and workflow:**
+- [ ] I can categorize an issue (urgent fix, needed fix, enhancement, not actionable, duplicate)
+- [ ] I understand why related issues should be grouped into one PR
+- [ ] I can complete the full workflow (sync → branch → edit → commit → test → PR)
 
 **If you answered "no" to any of the above, revisit the relevant training before proceeding.**
 
